@@ -1,0 +1,1056 @@
+[INFO ] 2024-06-15 20:41:36.173 [main] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 20:41:38.189 [main] Log - Launching url..
+[INFO ] 2024-06-15 20:42:03.206 [main] Log - Quitting driver
+[INFO ] 2024-06-15 20:42:03.449 [main] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 20:42:04.976 [main] Log - Launching url..
+[INFO ] 2024-06-15 20:42:41.542 [main] Log - Quitting driver
+[INFO ] 2024-06-15 20:42:41.781 [main] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 20:42:43.123 [main] Log - Launching url..
+[INFO ] 2024-06-15 20:43:08.145 [main] Log - Quitting driver
+[INFO ] 2024-06-15 20:43:08.405 [main] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 20:43:09.706 [main] Log - Launching url..
+[INFO ] 2024-06-15 20:43:41.241 [main] Log - Quitting driver
+[INFO ] 2024-06-15 20:43:41.489 [main] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 20:43:42.832 [main] Log - Launching url..
+[INFO ] 2024-06-15 20:44:01.687 [main] Log - Quitting driver
+[INFO ] 2024-06-15 20:44:01.908 [main] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 20:44:03.270 [main] Log - Launching url..
+[INFO ] 2024-06-15 20:44:08.479 [main] Log - Verifying navigation to Women's collection page
+[INFO ] 2024-06-15 20:44:13.781 [main] Log - Page title : Women
+[INFO ] 2024-06-15 20:44:13.783 [main] Log - Quitting driver
+[INFO ] 2024-06-15 20:44:13.998 [main] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 20:44:15.347 [main] Log - Launching url..
+[INFO ] 2024-06-15 20:44:35.400 [main] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 20:44:36.630 [main] Log - Launching url..
+[INFO ] 2024-06-15 20:44:45.379 [main] Log - Quitting driver
+[INFO ] 2024-06-15 20:44:45.584 [main] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 20:44:46.791 [main] Log - Launching url..
+[INFO ] 2024-06-15 20:44:54.924 [main] Log - Quitting driver
+[INFO ] 2024-06-15 21:57:58.030 [TestNG-tests-3] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 21:57:58.030 [TestNG-tests-4] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 21:57:58.030 [TestNG-tests-2] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 21:57:58.030 [TestNG-tests-5] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 21:57:58.030 [TestNG-tests-1] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 21:58:03.130 [TestNG-tests-2] Log - Launching url..
+[INFO ] 2024-06-15 21:58:03.130 [TestNG-tests-3] Log - Launching url..
+[INFO ] 2024-06-15 21:58:03.201 [TestNG-tests-1] Log - Launching url..
+[INFO ] 2024-06-15 21:58:03.252 [TestNG-tests-4] Log - Launching url..
+[INFO ] 2024-06-15 21:58:03.402 [TestNG-tests-5] Log - Launching url..
+[INFO ] 2024-06-15 21:58:10.008 [TestNG-tests-2] Log - Quitting driver
+[INFO ] 2024-06-15 21:58:10.740 [TestNG-tests-2] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 21:58:12.342 [TestNG-tests-2] Log - Launching url..
+[INFO ] 2024-06-15 22:02:10.077 [TestNG-tests-1] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 22:02:10.077 [TestNG-tests-5] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 22:02:10.077 [TestNG-tests-3] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 22:02:10.077 [TestNG-tests-2] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 22:02:10.077 [TestNG-tests-4] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 22:02:14.579 [TestNG-tests-5] Log - Launching url..
+[INFO ] 2024-06-15 22:02:14.583 [TestNG-tests-1] Log - Launching url..
+[INFO ] 2024-06-15 22:02:14.621 [TestNG-tests-3] Log - Launching url..
+[INFO ] 2024-06-15 22:02:14.842 [TestNG-tests-2] Log - Launching url..
+[INFO ] 2024-06-15 22:02:14.850 [TestNG-tests-4] Log - Launching url..
+[ERROR] 2024-06-15 22:02:23.710 [TestNG-tests-1] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\homePageMenuTest_1718469143708.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:87) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestFailure(ExtentReportListener.java:91) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:66) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:638) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[INFO ] 2024-06-15 22:02:23.753 [TestNG-tests-1] Log - Quitting driver
+[ERROR] 2024-06-15 22:02:24.206 [TestNG-tests-3] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\homePageMenuTest_1718469144205.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:87) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestFailure(ExtentReportListener.java:91) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:66) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:638) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[INFO ] 2024-06-15 22:02:24.219 [TestNG-tests-3] Log - Quitting driver
+[INFO ] 2024-06-15 22:02:24.250 [TestNG-tests-1] Log - Browser name is.. chrome
+[ERROR] 2024-06-15 22:02:24.685 [TestNG-tests-2] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\homePageMenuTest_1718469144684.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:87) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestFailure(ExtentReportListener.java:91) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:66) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:638) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[INFO ] 2024-06-15 22:02:24.690 [TestNG-tests-2] Log - Quitting driver
+[INFO ] 2024-06-15 22:02:24.693 [TestNG-tests-5] Log - Quitting driver
+[INFO ] 2024-06-15 22:02:24.696 [TestNG-tests-2] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 22:02:24.702 [TestNG-tests-5] Log - Browser name is.. chrome
+[ERROR] 2024-06-15 22:02:25.168 [TestNG-tests-3] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\navigateToBagsPageTest_1718469145167.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:87) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[ERROR] 2024-06-15 22:02:26.040 [TestNG-tests-3] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\searchTest_1718469146033.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:87) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[ERROR] 2024-06-15 22:02:26.550 [TestNG-tests-3] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\logoDisplayTest_1718469146550.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:87) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[INFO ] 2024-06-15 22:02:26.672 [TestNG-tests-1] Log - Launching url..
+[ERROR] 2024-06-15 22:02:27.640 [TestNG-tests-3] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\navigateToWomenCollectionPageTest_1718469147639.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:87) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[INFO ] 2024-06-15 22:02:28.351 [TestNG-tests-2] Log - Launching url..
+[ERROR] 2024-06-15 22:02:28.825 [TestNG-tests-3] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\subscribeLinkDisplayTest_1718469148824.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:87) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[INFO ] 2024-06-15 22:02:29.516 [TestNG-tests-5] Log - Launching url..
+[ERROR] 2024-06-15 22:02:29.609 [TestNG-tests-3] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\notesLinkDisplayTest_1718469149609.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:87) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[ERROR] 2024-06-15 22:02:30.585 [TestNG-tests-3] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\policyLinkDisplayTest_1718469150584.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:87) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[INFO ] 2024-06-15 22:02:37.903 [TestNG-tests-2] Log - Quitting driver
+[INFO ] 2024-06-15 22:02:38.367 [TestNG-tests-1] Log - Quitting driver
+[INFO ] 2024-06-15 22:02:40.830 [TestNG-tests-2] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 22:02:42.696 [TestNG-tests-2] Log - Launching url..
+[INFO ] 2024-06-15 22:02:46.718 [TestNG-tests-2] Log - Searching for .. yoga
+[ERROR] 2024-06-15 22:02:48.718 [TestNG-tests-5] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\signinTest_1718469168718.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:87) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestFailure(ExtentReportListener.java:91) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:66) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:638) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[INFO ] 2024-06-15 22:02:48.722 [TestNG-tests-5] Log - Quitting driver
+[INFO ] 2024-06-15 22:02:48.915 [TestNG-tests-1] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 22:02:50.808 [TestNG-tests-1] Log - Launching url..
+[INFO ] 2024-06-15 22:02:52.222 [TestNG-tests-5] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 22:02:54.114 [TestNG-tests-5] Log - Launching url..
+[INFO ] 2024-06-15 22:02:55.514 [TestNG-tests-1] Log - Searching for .. yoga
+[INFO ] 2024-06-15 22:03:02.337 [TestNG-tests-1] Log - Page title : Search results for: 'yoga'
+[INFO ] 2024-06-15 22:03:02.340 [TestNG-tests-1] Log - Quitting driver
+[INFO ] 2024-06-15 22:03:02.708 [TestNG-tests-1] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 22:03:04.016 [TestNG-tests-5] Log - Quitting driver
+[INFO ] 2024-06-15 22:03:04.354 [TestNG-tests-1] Log - Launching url..
+[INFO ] 2024-06-15 22:03:04.483 [TestNG-tests-5] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 22:03:07.138 [TestNG-tests-5] Log - Launching url..
+[INFO ] 2024-06-15 22:03:09.918 [TestNG-tests-1] Log - Verifying logo display
+[INFO ] 2024-06-15 22:03:10.073 [TestNG-tests-1] Log - Quitting driver
+[INFO ] 2024-06-15 22:03:10.382 [TestNG-tests-1] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 22:03:12.605 [TestNG-tests-1] Log - Launching url..
+[INFO ] 2024-06-15 22:03:18.498 [TestNG-tests-1] Log - Verifying navigation to Women's collection page
+[INFO ] 2024-06-15 22:03:21.315 [TestNG-tests-1] Log - Page title : Women
+[INFO ] 2024-06-15 22:03:21.317 [TestNG-tests-1] Log - Quitting driver
+[INFO ] 2024-06-15 22:03:21.764 [TestNG-tests-1] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 22:03:24.049 [TestNG-tests-1] Log - Launching url..
+[INFO ] 2024-06-15 22:03:24.676 [TestNG-tests-5] Log - Quitting driver
+[INFO ] 2024-06-15 22:03:24.971 [TestNG-tests-5] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 22:03:27.915 [TestNG-tests-5] Log - Launching url..
+[INFO ] 2024-06-15 22:03:29.897 [TestNG-tests-1] Log - Verifying subscribe link display
+[INFO ] 2024-06-15 22:03:30.241 [TestNG-tests-1] Log - Quitting driver
+[INFO ] 2024-06-15 22:03:30.544 [TestNG-tests-1] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 22:03:32.371 [TestNG-tests-1] Log - Launching url..
+[INFO ] 2024-06-15 22:03:36.751 [TestNG-tests-1] Log - Verifying notes link display
+[INFO ] 2024-06-15 22:03:36.961 [TestNG-tests-1] Log - Quitting driver
+[INFO ] 2024-06-15 22:03:37.232 [TestNG-tests-1] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 22:03:37.828 [TestNG-tests-5] Log - Quitting driver
+[INFO ] 2024-06-15 22:03:38.173 [TestNG-tests-5] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 22:03:38.871 [TestNG-tests-1] Log - Launching url..
+[INFO ] 2024-06-15 22:03:40.303 [TestNG-tests-5] Log - Launching url..
+[INFO ] 2024-06-15 22:03:42.511 [TestNG-tests-1] Log - Verifying privacy policy link display
+[INFO ] 2024-06-15 22:03:42.807 [TestNG-tests-1] Log - Quitting driver
+[INFO ] 2024-06-15 22:03:56.108 [TestNG-tests-5] Log - Quitting driver
+[INFO ] 2024-06-15 22:05:51.919 [TestNG-tests-2] Log - Page title : null
+[INFO ] 2024-06-15 22:43:58.015 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:43:58.052 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:43:58.061 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:43:58.072 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:43:58.080 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:45:36.725 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:45:36.753 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:45:36.758 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:45:36.761 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:45:36.771 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:51:33.449 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:51:41.385 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:51:49.794 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:51:53.274 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:52:11.964 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:52:42.795 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:52:42.834 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:52:42.840 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:52:42.848 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:52:42.857 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:56:04.994 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:56:18.452 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:56:48.963 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:56:54.419 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:56:58.730 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:57:42.311 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:57:42.347 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:57:42.355 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:57:42.362 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:57:42.368 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 22:58:01.151 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:30.736 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:30.771 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:30.779 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:30.790 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:30.796 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:30.838 [TestNG-tests-3] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:02:30.838 [TestNG-tests-2] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:02:30.839 [TestNG-tests-5] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:02:30.839 [TestNG-tests-1] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:02:34.739 [TestNG-tests-2] Log - Launching url..
+[INFO ] 2024-06-15 23:02:34.770 [TestNG-tests-3] Log - Launching url..
+[INFO ] 2024-06-15 23:02:34.864 [TestNG-tests-5] Log - Launching url..
+[INFO ] 2024-06-15 23:02:34.883 [TestNG-tests-1] Log - Launching url..
+[INFO ] 2024-06-15 23:02:38.403 [TestNG-tests-3] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:38.499 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:39.115 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:39.115 [TestNG-tests-3] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:39.143 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:39.143 [TestNG-tests-3] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:39.367 [TestNG-tests-1] Log - Quitting driver
+[INFO ] 2024-06-15 23:02:39.380 [TestNG-tests-3] Log - Quitting driver
+[INFO ] 2024-06-15 23:02:39.548 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:39.552 [TestNG-tests-1] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:02:39.603 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:39.605 [TestNG-tests-2] Log - Executing tests in null
+[ERROR] 2024-06-15 23:02:39.841 [TestNG-tests-3] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\navigateToBagsPageTest_1718472759839.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:108) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[ERROR] 2024-06-15 23:02:40.149 [TestNG-tests-3] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\searchTest_1718472760149.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:108) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[INFO ] 2024-06-15 23:02:40.688 [TestNG-tests-1] Log - Launching url..
+[ERROR] 2024-06-15 23:02:40.696 [TestNG-tests-3] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\logoDisplayTest_1718472760695.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:108) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[INFO ] 2024-06-15 23:02:40.699 [TestNG-tests-2] Log - Quitting driver
+[INFO ] 2024-06-15 23:02:40.970 [TestNG-tests-2] Log - Browser name is.. chrome
+[ERROR] 2024-06-15 23:02:41.046 [TestNG-tests-3] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\navigateToWomenCollectionPageTest_1718472761046.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:108) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[ERROR] 2024-06-15 23:02:41.302 [TestNG-tests-3] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\subscribeLinkDisplayTest_1718472761301.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:108) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[ERROR] 2024-06-15 23:02:41.662 [TestNG-tests-3] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\notesLinkDisplayTest_1718472761658.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:108) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[INFO ] 2024-06-15 23:02:41.864 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:41.960 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:41.961 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:42.093 [TestNG-tests-2] Log - Launching url..
+[ERROR] 2024-06-15 23:02:42.133 [TestNG-tests-3] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\policyLinkDisplayTest_1718472762132.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:108) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[INFO ] 2024-06-15 23:02:45.890 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:45.930 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:45.931 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:49.059 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:49.194 [TestNG-tests-2] Log - Quitting driver
+[INFO ] 2024-06-15 23:02:49.457 [TestNG-tests-2] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:02:50.343 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:50.350 [TestNG-tests-1] Log - Quitting driver
+[INFO ] 2024-06-15 23:02:50.527 [TestNG-tests-2] Log - Launching url..
+[INFO ] 2024-06-15 23:02:50.563 [TestNG-tests-1] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:02:51.648 [TestNG-tests-1] Log - Launching url..
+[INFO ] 2024-06-15 23:02:54.339 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:54.376 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:54.378 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:54.379 [TestNG-tests-2] Log - Searching for .. yoga
+[INFO ] 2024-06-15 23:02:54.890 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:54.921 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:54.922 [TestNG-tests-1] Log - Executing tests in null
+[ERROR] 2024-06-15 23:02:55.116 [TestNG-tests-5] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\forgotPasswordLinkExist_1718472775116.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:108) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[INFO ] 2024-06-15 23:02:55.117 [TestNG-tests-1] Log - Searching for .. yoga
+[ERROR] 2024-06-15 23:02:55.406 [TestNG-tests-5] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\signinTest_1718472775406.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:108) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[ERROR] 2024-06-15 23:02:55.651 [TestNG-tests-5] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\signinTest_1718472775651.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:108) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[ERROR] 2024-06-15 23:02:55.856 [TestNG-tests-5] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\signinTest_1718472775855.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:108) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[ERROR] 2024-06-15 23:02:56.200 [TestNG-tests-5] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\signinTest_1718472776199.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:108) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[ERROR] 2024-06-15 23:02:56.558 [TestNG-tests-5] Log - Error while capturing screenshot
+java.io.FileNotFoundException: C:\Users\User\IdeaProjects\TestNGFramework\screenshot\signinTest_1718472776558.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.20.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.20.0.jar:?]
+	at com.luma.qa.factory.DriverFactory.getScreenshot(DriverFactory.java:108) ~[classes/:?]
+	at com.luma.qa.report.ExtentReportListener.onTestSkipped(ExtentReportListener.java:101) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:57) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:432) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:529) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.0.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:770) ~[testng-7.0.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:591) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41) ~[testng-7.0.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443) ~[testng-7.0.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67) ~[testng-7.0.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[INFO ] 2024-06-15 23:02:56.929 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:56.948 [TestNG-tests-2] Log - Page title : Search results for: 'yoga'
+[INFO ] 2024-06-15 23:02:56.949 [TestNG-tests-2] Log - Quitting driver
+[INFO ] 2024-06-15 23:02:57.235 [TestNG-tests-2] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:02:57.678 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:02:57.692 [TestNG-tests-1] Log - Page title : Search results for: 'yoga'
+[INFO ] 2024-06-15 23:02:57.693 [TestNG-tests-1] Log - Quitting driver
+[INFO ] 2024-06-15 23:02:57.999 [TestNG-tests-1] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:02:58.357 [TestNG-tests-2] Log - Launching url..
+[INFO ] 2024-06-15 23:02:59.335 [TestNG-tests-1] Log - Launching url..
+[INFO ] 2024-06-15 23:03:02.630 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:02.672 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:02.674 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:02.676 [TestNG-tests-1] Log - Verifying logo display
+[INFO ] 2024-06-15 23:03:02.756 [TestNG-tests-1] Log - Quitting driver
+[INFO ] 2024-06-15 23:03:03.107 [TestNG-tests-1] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:03:04.373 [TestNG-tests-1] Log - Launching url..
+[INFO ] 2024-06-15 23:03:05.193 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:05.212 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:05.213 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:05.213 [TestNG-tests-2] Log - Verifying logo display
+[INFO ] 2024-06-15 23:03:05.268 [TestNG-tests-2] Log - Quitting driver
+[INFO ] 2024-06-15 23:03:05.435 [TestNG-tests-2] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:03:06.711 [TestNG-tests-2] Log - Launching url..
+[INFO ] 2024-06-15 23:03:07.532 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:07.557 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:07.558 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:07.559 [TestNG-tests-1] Log - Verifying navigation to Women's collection page
+[INFO ] 2024-06-15 23:03:08.629 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:08.647 [TestNG-tests-1] Log - Page title : Women
+[INFO ] 2024-06-15 23:03:08.648 [TestNG-tests-1] Log - Quitting driver
+[INFO ] 2024-06-15 23:03:08.847 [TestNG-tests-1] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:03:09.979 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:09.987 [TestNG-tests-1] Log - Launching url..
+[INFO ] 2024-06-15 23:03:10.009 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:10.011 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:10.012 [TestNG-tests-2] Log - Verifying navigation to Women's collection page
+[INFO ] 2024-06-15 23:03:11.026 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:11.102 [TestNG-tests-2] Log - Page title : Women
+[INFO ] 2024-06-15 23:03:11.103 [TestNG-tests-2] Log - Quitting driver
+[INFO ] 2024-06-15 23:03:11.281 [TestNG-tests-2] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:03:12.587 [TestNG-tests-2] Log - Launching url..
+[INFO ] 2024-06-15 23:03:13.253 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:13.271 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:13.272 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:13.273 [TestNG-tests-1] Log - Verifying subscribe link display
+[INFO ] 2024-06-15 23:03:13.369 [TestNG-tests-1] Log - Quitting driver
+[INFO ] 2024-06-15 23:03:13.526 [TestNG-tests-1] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:03:14.709 [TestNG-tests-1] Log - Launching url..
+[INFO ] 2024-06-15 23:03:15.549 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:15.567 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:15.568 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:15.569 [TestNG-tests-2] Log - Verifying subscribe link display
+[INFO ] 2024-06-15 23:03:15.680 [TestNG-tests-2] Log - Quitting driver
+[INFO ] 2024-06-15 23:03:15.849 [TestNG-tests-2] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:03:17.093 [TestNG-tests-2] Log - Launching url..
+[INFO ] 2024-06-15 23:03:17.701 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:17.741 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:17.743 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:17.744 [TestNG-tests-1] Log - Verifying notes link display
+[INFO ] 2024-06-15 23:03:17.849 [TestNG-tests-1] Log - Quitting driver
+[INFO ] 2024-06-15 23:03:18.010 [TestNG-tests-1] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:03:18.991 [TestNG-tests-1] Log - Launching url..
+[INFO ] 2024-06-15 23:03:22.213 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:22.229 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:22.230 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:22.231 [TestNG-tests-1] Log - Verifying privacy policy link display
+[INFO ] 2024-06-15 23:03:22.330 [TestNG-tests-1] Log - Quitting driver
+[INFO ] 2024-06-15 23:03:23.895 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:23.920 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:23.921 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:23.923 [TestNG-tests-2] Log - Verifying notes link display
+[INFO ] 2024-06-15 23:03:24.040 [TestNG-tests-2] Log - Quitting driver
+[INFO ] 2024-06-15 23:03:24.186 [TestNG-tests-2] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:03:25.183 [TestNG-tests-2] Log - Launching url..
+[INFO ] 2024-06-15 23:03:28.471 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:28.496 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:28.497 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:03:28.498 [TestNG-tests-2] Log - Verifying privacy policy link display
+[INFO ] 2024-06-15 23:03:28.611 [TestNG-tests-2] Log - Quitting driver
+[INFO ] 2024-06-15 23:07:05.098 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 23:07:05.132 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 23:07:05.138 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 23:07:05.146 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 23:07:05.152 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 23:07:05.189 [TestNG-tests-3] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:07:05.189 [TestNG-tests-1] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:07:05.191 [TestNG-tests-2] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:07:08.175 [TestNG-tests-1] Log - Launching url..
+[INFO ] 2024-06-15 23:07:08.178 [TestNG-tests-3] Log - Launching url..
+[INFO ] 2024-06-15 23:07:08.206 [TestNG-tests-2] Log - Launching url..
+[INFO ] 2024-06-15 23:07:11.370 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:07:11.994 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:07:12.023 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:07:12.195 [TestNG-tests-2] Log - Quitting driver
+[INFO ] 2024-06-15 23:07:12.420 [TestNG-tests-3] Log - Executing tests in null
+[INFO ] 2024-06-15 23:07:12.476 [TestNG-tests-3] Log - Executing tests in null
+[INFO ] 2024-06-15 23:07:12.478 [TestNG-tests-3] Log - Executing tests in null
+[INFO ] 2024-06-15 23:07:12.615 [TestNG-tests-3] Log - Quitting driver
+[INFO ] 2024-06-15 23:07:13.124 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:07:13.156 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:07:13.157 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:07:13.268 [TestNG-tests-1] Log - Quitting driver
+[INFO ] 2024-06-15 23:08:46.990 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 23:09:38.935 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 23:10:27.339 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 23:10:27.376 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 23:10:27.384 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 23:10:27.393 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 23:10:27.398 [main] Log - Executing tests in null
+[INFO ] 2024-06-15 23:10:27.442 [TestNG-tests-1] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:10:27.443 [TestNG-tests-2] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:10:27.443 [TestNG-tests-3] Log - Browser name is.. chrome
+[INFO ] 2024-06-15 23:10:30.691 [TestNG-tests-3] Log - Launching url..
+[INFO ] 2024-06-15 23:10:30.694 [TestNG-tests-2] Log - Launching url..
+[INFO ] 2024-06-15 23:10:30.728 [TestNG-tests-1] Log - Launching url..
+[INFO ] 2024-06-15 23:10:34.155 [TestNG-tests-3] Log - Executing tests in null
+[INFO ] 2024-06-15 23:10:34.539 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:10:34.690 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:10:34.690 [TestNG-tests-3] Log - Executing tests in null
+[INFO ] 2024-06-15 23:10:34.712 [TestNG-tests-2] Log - Executing tests in null
+[INFO ] 2024-06-15 23:10:34.713 [TestNG-tests-3] Log - Executing tests in null
+[INFO ] 2024-06-15 23:10:34.749 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:10:34.805 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:10:34.805 [TestNG-tests-1] Log - Executing tests in null
+[INFO ] 2024-06-15 23:10:34.945 [TestNG-tests-2] Log - Quitting driver
+[INFO ] 2024-06-15 23:10:34.952 [TestNG-tests-3] Log - Quitting driver
+[INFO ] 2024-06-15 23:10:34.955 [TestNG-tests-1] Log - Quitting driver

@@ -1,0 +1,74 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
+
+<!--<suite name="Magento Luma Test Suite" verbose="3"-->
+<!--       thread-count="5" parallel="tests">-->
+<!--    <listeners>-->
+<!--        <listener class-name="com.luma.qa.report.ExtentReportListener"/>-->
+<!--        <listener class-name="com.luma.qa.listener.AnnotationTransformer"/>-->
+<!--    </listeners>-->
+<!--    <test name="Homepage test chrome">-->
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <parameter name="testname" value="Luma-Homepage Test"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--&lt;!&ndash;                <exclude name="HomePageTest"/>&ndash;&gt;-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.luma.qa.testcases.HomePageTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Homepage test firefox">-->
+<!--        <parameter name="browser" value="firefox"/>-->
+<!--        <parameter name="testname" value="Luma-Homepage Test"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <exclude name="HomePageTest"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.luma.qa.testcases.HomePageTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Homepage test edge">-->
+<!--        <parameter name="browser" value="edge"/>-->
+<!--        <parameter name="testname" value="Luma-Homepage Test"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <exclude name="HomePageTest"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.luma.qa.testcases.HomePageTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Register user test chrome">-->
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <parameter name="testname" value="Luma-Register user Test"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="RetryTest"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.luma.qa.testcases.RegisterPageTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Sign in test chrome">-->
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <parameter name="testname" value="Luma-Sign in Test"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <exclude name="HomePageTest"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.luma.qa.testcases.SigninPageTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
