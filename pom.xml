@@ -100,7 +100,7 @@
                     <!--                        <include>com.luma.qa.testcases</include>-->
                     <!--                    </includes>-->
                     <groups>HomePageTest,RetryTest</groups>
-                    <!--<parallel>methods</parallel>
+                    <!-- <parallel>methods</parallel>
                     <threadCount>5</threadCount>-->
                 </configuration>
                 <dependencies>
