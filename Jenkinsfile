@@ -6,7 +6,8 @@ pipeline {
   stages {
     stage('Compile') {
         steps {
-            script {
+            git url: 'https://github.com/abarna137/TestNGFramework'
+            withMaven {
                 sh 'mvn clean compile'
             }
         }
