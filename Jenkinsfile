@@ -17,6 +17,21 @@ pipeline {
             bat "mvn clean compile"
         }
     }
+    stage("Build") {
+        steps {
+            bat "mvn install"
+        }
+    }
+    stage("Test") {
+        steps {
+            bat "mvn test"
+        }
+    }
+    stage("Deploy") {
+        steps {
+            bat "mvn package"
+        }
+    }
   }
 }
       
