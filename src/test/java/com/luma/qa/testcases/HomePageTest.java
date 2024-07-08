@@ -20,10 +20,10 @@ public class HomePageTest extends TestBase {
         super();
     }
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setUp() {
         initialization();
-        homePage = getHomePage();
+        this.homePage = getHomePage();
     }
 
     @Test(priority = 1, groups = "HomePageTest")
@@ -79,7 +79,7 @@ public class HomePageTest extends TestBase {
         Assert.assertEquals(title, AppConstants.BAGS_PAGE_TITLE);
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown() {
         quitDriver();
     }

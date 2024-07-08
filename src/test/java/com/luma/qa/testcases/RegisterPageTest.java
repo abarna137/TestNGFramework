@@ -20,15 +20,15 @@ public class RegisterPageTest extends TestBase {
         super();
     }
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setUp() {
         initialization();
         navigateToRegisterPage();
     }
 
     public void navigateToRegisterPage() {
-        homePage = getHomePage();
-        registerPage = homePage.navigateToRegisterPage();
+        this.homePage = getHomePage();
+        this.registerPage = homePage.navigateToRegisterPage();
     }
 
     @Test(dataProvider = "getUserData", retryAnalyzer = Retry.class)
@@ -53,7 +53,7 @@ public class RegisterPageTest extends TestBase {
         Assert.assertEquals(title, AppConstants.MY_ACCOUNT_PAGE_TITLE);
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown() {
         quitDriver();
     }

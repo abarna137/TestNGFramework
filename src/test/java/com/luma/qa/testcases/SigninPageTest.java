@@ -18,11 +18,11 @@ public class SigninPageTest extends TestBase {
         super();
     }
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setUp() {
         initialization();
-        homePage = getHomePage();
-        signinPage = homePage.navigateToSigninPage();
+        this.homePage = getHomePage();
+        this.signinPage = homePage.navigateToSigninPage();
     }
 
     @Test(dataProvider = "getUserDataForSignin", groups = "HomePageTest")
@@ -37,7 +37,7 @@ public class SigninPageTest extends TestBase {
         Assert.assertTrue(signinPage.isForgotPasswordLinkExist());
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown() {
         quitDriver();
     }
