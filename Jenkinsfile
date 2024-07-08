@@ -27,6 +27,13 @@ pipeline {
             bat "mvn test"
         }
     }
+    stage("Approve") {
+        steps {
+            timeout(time: 15, unit: "MINUTES") {
+                input message: 'Do you want to approve the deployment?', ok: 'Yes'
+            }
+        }
+    }
     stage("Deploy") {
         steps {
             bat "mvn package"
