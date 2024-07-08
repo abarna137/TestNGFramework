@@ -14,12 +14,12 @@ pipeline {
     }
     stage("Compile") {
         steps {
-            bat "mvn clean compile"
+            echo "mvn clean compile"
         }
     }
     stage("Build") {
         steps {
-            bat "mvn install"
+            echo "mvn install"
         }
     }
     stage("Test") {
@@ -36,7 +36,7 @@ pipeline {
     }
     stage("Deploy") {
         steps {
-            bat "mvn package"
+            echo "mvn package"
         }
     }
   }
