@@ -1,5 +1,8 @@
 pipeline {
-  agent any 
+  agent any
+  options {
+    retry(3)
+  }
   stages {
     stage('Compile') {
         steps {
@@ -7,22 +10,25 @@ pipeline {
                 sh 'mvn clean compile'
             }
         }
-    } stage('Build') {
+    }
+    stage('Build') {
         steps {
             script {
                 sh 'mvn install'
             }
         }
-    } stage('Test') {
+    }
+    stage('Test') {
         steps {
             script {
                 sh 'mvn test'
             }
         }
-    } stage('Deploy') {
+    }
+    stage('Deploy') {
         steps {
             script {
-                echo "Deployment in progress"
+                sh 'mvn package'
             }
         }
     }
